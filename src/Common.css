@@ -1,0 +1,87 @@
+.app-container {
+    margin: auto;
+    background: #f7ebcb;
+    padding: 20px;
+    font-family: sans-serif;
+}
+/* flex styles start*/
+.display-flex {
+    display: flex;
+}
+.flex-basis-30 {
+    flex-basis: 30%;
+}
+.justify-space-between {
+    justify-content: space-between
+}
+.align-items-center {
+    align-items: center;
+}
+/* flex styles end */
+
+.float-right {
+    float: right;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.margin-l10 {
+    margin-left: 10px;
+}
+
+.chevron {
+    padding: 6px;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: #EEA696;
+    color: #E57259;
+}
+
+.chevron.top, .chevron.bottom {
+    background: transparent;
+}
+
+.chevron::before {
+	border-style: solid;
+    border-width: 0.15em 0.15em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.25em;
+    left: 0.1em;
+    position: relative;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.25em;
+    border-top-style: solid;
+}
+
+.chevron.right:before {
+	left: 0;
+	transform: rotate(45deg);
+}
+
+.chevron.left:before {
+	transform: rotate(-135deg);
+}
+
+.chevron.bottom:before {
+	top: -0.05rem;
+    transform: rotate(135deg);
+    left: 0rem;
+}
+
+.chevron.top:before {
+	top: -0.05rem;
+    left: 0rem;
+}
+
+.display-none {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+    background-color: #DAD0CE;
+    color: #A29A98;
+}

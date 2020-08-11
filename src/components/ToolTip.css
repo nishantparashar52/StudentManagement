@@ -1,0 +1,16 @@
+.tooltip {
+    background-color: #fafafa;
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: 100%;
+    margin-left: 9px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.mr-5 {
+    margin-right: 5px;
+}

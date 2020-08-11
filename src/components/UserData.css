@@ -1,0 +1,24 @@
+.pos-rel {
+    position: relative;
+}
+.display-ib {
+    display: inline-block;
+}
+.parentClass {
+    display: flex;
+    padding: 5px 0;
+    flex-direction: column;
+}
+.sectionWrapper {
+    display: flex;
+    margin-left: 10px;
+    padding: 5px 0;
+    flex-direction: column;
+}
+.studentWrapper {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    display: inline-block;
+}
